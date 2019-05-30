@@ -12,6 +12,7 @@ h1{
 .receta{
 	border: 1px solid #000;
 	width: 50%;
+	min-width: 300px;
 }
 
 ul{
