@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Practica 6 CSS</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="estilos-18.css">
+	</head>
+	<body>
+		<h1>Albondigas caseras</h1>
+		<div class="receta">
+			<ul>
+				<li data-cantidad="750g" data-carne>Carne</li>
+				<li data-cantidad="4cu" data-vegetal>Aceite</li>
+				<li data-cantidad="2" data-carne>Huevos</li>
+				<li data-cantidad="100g" data-vegetal>Arina</li>
+				<li data-cantidad="1" data-vegetal>Cebolla</li>
+			</ul>
+			<div class="imagen">
+				<img src="https://www.petitchef.es/imgupl/recipe/albondigas-caseras-en-salsa--md-139943p210084.jpg" alt="Una foto de un plato con albondigas">
+			</div>
+			
+		</div>
+		<div class="formulario">
+			<form method="post" action="miservidor.php">
+				<div>
+			 		<label for="nombre">Nombre:</label>
+			 		<input type="text" id="nombre" placeholder="Nombre">
+		 		</div>
+		 		<div>
+			 		<label for="nombre">Apellidos:</label>
+			 		<input type="text" id="primero" placeholder="Primer Apellido">
+			 		<input type="text" id="segundo" placeholder="Segundo Apellido">
+		 		</div>
+				<div>
+			 		<label for="email">Email:</label>
+			 		<input type="email" id="email" placeholder="algo@sitio">
+		 		</div>
+		 		<div>
+		 			<label for="duda">Dudas</label>
+		 			<textarea id=”duda” placeholder="Escribe aquí sus dudas"></textarea>
+		 		</div>
+
+				<div>
+		  			<input type="submit" value="Enviar">
+		  		</div>
+			</form>
+		</div>
+
+	</body>
+</html>
